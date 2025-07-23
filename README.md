@@ -23,7 +23,7 @@
 
 1. **克隆项目**
    ```bash
-   git clone https://github.com/yourusername/video-to-wechat-emoji.git
+   git clone https://github.com/gytpku/video-to-wechat-emoji.git
    cd video-to-wechat-emoji
    ```
 
@@ -77,7 +77,7 @@
 ## 🛠 技术架构
 
 - **后端**: FastAPI + Python
-- **AI分析**: Google Gemini 1.5 Flash
+- **AI分析**: Google Gemini 2.5 Flash
 - **视频处理**: FFmpeg
 - **前端**: HTML + JavaScript
 - **文件存储**: 本地文件系统
@@ -108,7 +108,7 @@ video-to-wechat-emoji/
 
 ### API限制
 
-- 支持的视频格式: MP4
+- 支持的视频格式: Gemini flash系列模型可读形式（实测mp4可以）
 - 最大视频时长: 建议 5 分钟以内
 - 输出格式: 400x400 到 500x500 像素的方形视频
 - 表情包时长: 最多 5 秒
