@@ -55,10 +55,14 @@
 ## 使用步骤图示
 1. 运行main.py文件后终端提示如下，即可进行下一步：
 <img width="1173" height="181" alt="image" src="https://github.com/user-attachments/assets/92ca97e3-6960-46d8-a0af-3c3bcb293044" />
+
 2. 浏览器输出"localhost:8000"，界面如下（可通过/static/index.html修改）：
 <img width="2466" height="1476" alt="image" src="https://github.com/user-attachments/assets/5381bfdd-5907-44e1-9405-429a10a6a54e" />
+
 3. 上传视频文件，并在文本框输入合适的Prompt，点击"Generate Emojis"；
+
 4. 等待后台处理视频（终端有操作提示），处理完成后会弹出新页面，生成文件亦可在"/results"中查看（会自动生成）
+
 5. 将处理好的视频手动导入微信表情包
 
 **请注意，操作逻辑为gemeni模型输出代码指令，FFmpeg处理，因为大模型输出的不稳定性，可能会有FFmpeg无法识别指令的情况，实测此类bug出现概率不高（在gemini-2.5-flash模型下）**
