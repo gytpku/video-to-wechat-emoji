@@ -1,0 +1,17 @@
+# Web框架和服务器
+fastapi>=0.104.0
+uvicorn>=0.24.0
+
+# 文件上传支持
+python-multipart>=0.0.6
+
+# Google AI API
+google-generativeai>=0.3.0
+
+# 环境变量管理
+python-dotenv>=1.0.0
+
+# 可选：开发和调试工具
+# pytest>=7.4.0
+# black>=23.0.0
+# flake8>=6.0.0
