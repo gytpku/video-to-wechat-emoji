@@ -59,6 +59,7 @@
 <img width="2466" height="1476" alt="image" src="https://github.com/user-attachments/assets/5381bfdd-5907-44e1-9405-429a10a6a54e" />
 3. 上传视频文件，并在文本框输入合适的Prompt，点击"Generate Emojis"；
 4. 等待后台处理视频（终端有操作提示），处理完成后会弹出新页面，生成文件亦可在"/results"中查看（会自动生成）
+5. 将处理好的视频手动导入微信表情包
 
 **请注意，操作逻辑为gemeni模型输出代码指令，FFmpeg处理，因为大模型输出的不稳定性，可能会有FFmpeg无法识别指令的情况，实测此类bug出现概率不高（在gemini-2.5-flash模型下）**
 
@@ -127,15 +128,6 @@ uvicorn main:app --reload --host 0.0.0.0 --port 8000
 - `run_ffmpeg_command()`: FFmpeg命令执行
 - `get_video_dimensions()`: 获取视频尺寸
 
-## 🤝 贡献指南
-
-欢迎提交 Issue 和 Pull Request！
-
-1. Fork 本项目
-2. 创建新的功能分支 (`git checkout -b feature/AmazingFeature`)
-3. 提交更改 (`git commit -m 'Add some AmazingFeature'`)
-4. 推送到分支 (`git push origin feature/AmazingFeature`)
-5. 开启 Pull Request
 
 ## 📝 许可证
 
@@ -158,7 +150,7 @@ uvicorn main:app --reload --host 0.0.0.0 --port 8000
 如有问题或建议，请通过以下方式联系：
 
 - 提交 [GitHub Issue](https://github.com/yourusername/video-to-wechat-emoji/issues)
-- 发送邮件到: your.email@example.com
+- 发送邮件到: 1761373668@qq.com
 
 ---
 
